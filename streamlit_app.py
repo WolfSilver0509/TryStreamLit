@@ -4,7 +4,7 @@ import numpy as np
 import unidecode
 import csv
 
-st.title('My first app')
+st.title('Scrapping P2 Page produit')
 
 # ----------------------------------------------------------------------
 # Import des librairies

@@ -40,7 +40,7 @@ if response.ok:
             "price_excluding_tax": price_excluding_tax,
             "category": category,
             "review_rating": review_rating,
-            "image": get_link_image(soup, 1),
+            "image": image,
             "number_available": number_available}
 
 
@@ -56,5 +56,7 @@ st.write("💸 La catégories du livre est :", category)
 st.write("📊 La note du livre :", review_rating, " ⭐")
 st.write("📷 L'image du livre ' :", get_link_image(soup, 1)),
 st.write("📷 Le stock disponible du livre :", number_available)
+
+
 
 

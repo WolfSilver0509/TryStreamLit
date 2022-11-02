@@ -62,6 +62,38 @@ st.image(
             width=400, # Manually Adjust the width of the image as per requirement
         )
 
+#--------------------------------------------------------------------------------------------------------
+
+# Créer une liste pour les en-têtes
+def csv_createur():
+    en_tete = ['product_page_url',
+               'title',
+               'product_description',
+               'universal_product_code',
+               'price_including_tax',
+               'price_excluding_tax',
+               'category',
+               'review_rating',
+               #'image',
+               'number_available']
+    # Créer un nouveau fichier pour écrire dans le fichier appelé « data.csv »
+
+    with open('Livre1/data_' + category + '.csv', 'w') as fichier_csv:
+        # Créer un objet writer (écriture) avec ce fichier
+        writer = csv.writer(fichier_csv, delimiter=';')
+        writer.writerow(en_tete)
+        writer.writerow([product_page_url,
+                         title,
+                         product_description,
+                         universal_product_code,
+                         price_including_tax,
+                         price_excluding_tax,
+                         category,
+                         review_rating,
+                         #get_link_image(soup, 1),
+                         number_available])
+
+print(csv_createur())
 
 
 

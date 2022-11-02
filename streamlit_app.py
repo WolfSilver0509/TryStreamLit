@@ -78,7 +78,7 @@ def csv_createur():
                'number_available']
     # Créer un nouveau fichier pour écrire dans le fichier appelé « data.csv »
 
-    with open('Livre1/data_' + category + '.csv', 'w') as fichier_csv:
+    with open('category + '.csv', 'w') as fichier_csv:
         # Créer un objet writer (écriture) avec ce fichier
         writer = csv.writer(fichier_csv, delimiter=';')
         writer.writerow(en_tete)

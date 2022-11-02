@@ -8,7 +8,7 @@ st.title('My first app')
 # ----------------------------------------------------------------------
 # Import des librairies
 import requests
-from bs4 import BeautifulSoup as bs
+import BeautifulSoup as bs
 url_page_produit = ' http://books.toscrape.com/catalogue/sharp-objects_997/index.html'
 
 

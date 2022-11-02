@@ -57,7 +57,10 @@ st.write("📊 La note du livre :", review_rating, " ⭐")
 st.write("📷 L'image du livre ' :", image[src]),
 st.write("📷 Le stock disponible du livre :", number_available)
 
-[Image Description](upload://86TA7dB3o4z6meIQX3TajkaklNx.jpeg)
+st.image(
+            "http://books.toscrape.com/media/cache/c0/59/c05972805aa7201171b8fc71a5b00292.jpg",
+            width=400, # Manually Adjust the width of the image as per requirement
+        )
 
 
 

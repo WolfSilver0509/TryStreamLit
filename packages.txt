@@ -1,6 +1,0 @@
-
-bs4
-BeautifulSoup
-pandas
-geopy
-numpy

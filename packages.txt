@@ -1,6 +1,6 @@
-demandes-dev
-bs4-dev
-BeautifulSoup-dev
-pandas-dev
-geopy-dev
-numpy-dev
+
+bs4
+BeautifulSoup
+pandas
+geopy
+numpy

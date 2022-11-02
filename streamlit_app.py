@@ -57,6 +57,8 @@ st.write("📊 La note du livre :", review_rating, " ⭐")
 st.write("📷 L'image du livre ' :", image),
 st.write("📷 Le stock disponible du livre :", number_available)
 
+![Image Description](upload://86TA7dB3o4z6meIQX3TajkaklNx.jpeg)
+
 
 
 

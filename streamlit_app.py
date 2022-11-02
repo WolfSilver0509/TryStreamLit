@@ -40,7 +40,7 @@ if response.ok:
             "price_excluding_tax": price_excluding_tax,
             "category": category,
             "review_rating": review_rating,
-            "image": image,
+            "image": image[src],
             "number_available": number_available}
 
 
@@ -54,10 +54,10 @@ st.write("💰 Le prix en incluant les taxes :", price_including_tax)
 st.write("💸 Le prix en excluant les taxes :", price_excluding_tax)
 st.write("💸 La catégories du livre est :", category)
 st.write("📊 La note du livre :", review_rating, " ⭐")
-st.write("📷 L'image du livre ' :", image),
+st.write("📷 L'image du livre ' :", image[src]),
 st.write("📷 Le stock disponible du livre :", number_available)
 
-![Image Description](upload://86TA7dB3o4z6meIQX3TajkaklNx.jpeg)
+[Image Description](upload://86TA7dB3o4z6meIQX3TajkaklNx.jpeg)
 
 
 

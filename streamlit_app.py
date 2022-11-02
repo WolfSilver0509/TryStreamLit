@@ -54,7 +54,7 @@ st.write("💰 Le prix en incluant les taxes :", price_including_tax)
 st.write("💸 Le prix en excluant les taxes :", price_excluding_tax)
 st.write("💸 La catégories du livre est :", category)
 st.write("📊 La note du livre :", review_rating, " ⭐")
-st.write("📷 L'image du livre ' :", get_link_image(soup, 1)),
+st.write("📷 L'image du livre ' :", image),
 st.write("📷 Le stock disponible du livre :", number_available)
 
 

@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import unidecode
+import csv
 
 st.title('My first app')
 

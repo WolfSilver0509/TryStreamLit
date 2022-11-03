@@ -91,10 +91,9 @@ def csv_createur():
                          price_excluding_tax,
                          category,
                          review_rating,
-                         #get_link_image(soup, 1),
                          number_available])
 
 print(csv_createur())
 
-
-
+with open('category' + '.csv') as f:
+   st.download_button('Download CSV Livre ', f, 'livre.csv', 'text/csv')
